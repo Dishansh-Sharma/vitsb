@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragment.HomeFragment"
+    >
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/searchCV"
+        app:cardCornerRadius="5dp"
+
+        app:cardUseCompatPadding="true">
+<!--        <EditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/searchEt"-->
+<!--            android:background="@drawable/background_shape"-->
+<!--            android:hint="Search"-->
+<!--            android:drawableStart="@drawable/ic_search_gray"-->
+<!--            android:drawablePadding="10dp"-->
+<!--            />-->
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/searchEt"
+            android:background="@drawable/background_shape"
+            android:hint="Search"
+            android:drawableStart="@drawable/ic_search_gray"
+            android:drawablePadding="10dp"
+            android:padding="10dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categories"
+        android:layout_marginStart="6dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        style="@style/TextAppearance.MaterialComponents.Overline" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/categoriesRv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/raw_category"
+        android:orientation="horizontal"
+        android:background="@android:color/transparent"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/adsRv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/row_ad" />
+</LinearLayout>

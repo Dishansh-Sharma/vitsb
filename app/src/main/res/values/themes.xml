@@ -1,0 +1,39 @@
+<!--<resources xmlns:tools="http://schemas.android.com/tools">-->
+<!--    &lt;!&ndash; Base application theme. &ndash;&gt;-->
+<!--    <style name="Base.Theme.Vitsp" parent="Theme.MaterialComponents.DayNight.NoActionBar">-->
+<!--        &lt;!&ndash; Customize your light theme here. &ndash;&gt;-->
+<!--         -->
+<!--    </style>-->
+
+<!--    <style name="Theme.Vitsp" parent="Base.Theme.Vitsp" />-->
+<!--</resources>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme using MaterialComponents -->
+    <style name="Base.Theme.Vitsp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your light theme here -->
+        <!-- Example: -->
+
+    </style>
+
+    <!-- Application theme that uses the base theme -->
+    <style name="Theme.Vitsp" parent="Base.Theme.Vitsp" />
+
+    <!-- Button-specific theme using AppCompat -->
+    <style name="AppCompatButtonTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize button-specific attributes here -->
+
+    </style>
+</resources>

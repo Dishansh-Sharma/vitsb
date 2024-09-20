@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="ImageStyle_circle">
+        <item name="cornerSize">50%</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+
+    <style name="ImageStyle_Corners_Rounded">
+        <item name="cornerSize">10dp</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+
+
+
+    <style name="MaterialCardViewStyle" parent="Widget.MaterialComponents.CardView">
+        <!-- Customize your card view -->
+        <item name="cardCornerRadius">8dp</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+
+    <style name="FloatingActionButtonStyle" parent="Widget.MaterialComponents.FloatingActionButton">
+        <!-- Customize your FAB -->
+        <item name="backgroundTint">@color/purclr</item>
+    </style>
+
+</resources>

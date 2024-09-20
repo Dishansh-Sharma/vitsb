@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">vitsp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="not_have_account_register">Not Have Account? <b>Register</b></string>
+    <string name="already_have_account_login">Already Have Account? <b>Login</b></string>
+
+    <string name="didn_t_receive_otp_resnd">Didn\'t receive OTP? <b>Resnd</b></string>
+    <string name="email">Email</string>
+    <string name="forgot_password_recover">Forgot Password? <b>Recover</b></string>
+    <string name="submit">Submit</string>
+    <string name="default_web_client_id">932577078708-dscmr3aqm4buqsgscfbv9uvfqbt2i06e.apps.googleusercontent.com</string>
+
+    <string name="price_symbol">₹</string>
+
+    <string name="toolbar_back_btn_desc">Back</string>
+
+    <string name="sell_fab_description">Sell item</string>
+    <string name="effortlessly_browse_and_buy_products_across_various_categories_with_our_intuitive_app_connect_with_sellers_and_make_secure_purchases_in_just_a_few_taps">Effortlessly browse and buy products across various categories with our intuitive app. Connect with sellers and make secure purchases in just a few taps.</string>
+</resources>

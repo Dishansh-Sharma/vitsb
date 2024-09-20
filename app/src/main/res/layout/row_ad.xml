@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true"
+   >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@id/imageiv"
+            android:layout_marginEnd="10dp"
+
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_image_gray"
+            style="@style/ImageStyle_Corners_Rounded"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/imageiv"
+            android:ellipsize="end"
+            android:id ="@+id/titleiv"
+            android:maxLines="1"
+            android:text="The Ad title"
+            android:layout_toStartOf="@+id/favbtn"
+            style="@style/TextAppearance.MaterialComponents.Body1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/imageiv"
+            android:ellipsize="end"
+            android:id="@+id/descriptionTv"
+            android:layout_below="@id/titleiv"
+            android:layout_toStartOf="@+id/favbtn"
+
+            android:lines="6"
+            android:text="The long description of the ad can be multiple lines up to 3 lines"
+            style="@style/TextAppearance.MaterialComponents.Body1"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/favbtn"
+            android:layout_alignParentEnd="true"
+            android:padding="10dp"
+
+            android:src="@drawable/ic_fav_no"
+            android:background="?android:attr/selectableItemBackgroundBorderless"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/imageiv"
+            android:ellipsize="end"
+            android:id ="@+id/adressTv"
+            android:layout_below="@+id/descriptionTv"
+            android:maxLines="1"
+            android:text="The Ad adress"
+            style="@style/TextAppearance.MaterialComponents.Body1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/conditionTv"
+            style="@style/TextAppearance.MaterialComponents.Body1"
+            android:layout_below="@id/adressTv"
+            android:text="New"
+            android:layout_toEndOf="@id/imageiv"
+            android:textSize="12sp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="5dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.MaterialComponents.Caption"
+            android:id="@+id/priceSymbolTv"
+            android:layout_below="@id/adressTv"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="2dp"
+            android:layout_toEndOf="@id/conditionTv"
+            android:text="@string/price_symbol"
+            android:textSize="12sp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.MaterialComponents.Caption"
+            android:layout_below="@id/adressTv"
+            android:id="@+id/priceTv"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="5dp"
+            android:layout_toEndOf="@id/priceSymbolTv"
+            android:textSize="12sp"
+            android:text="00"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.MaterialComponents.Caption"
+            android:layout_below="@id/adressTv"
+            android:layout_marginTop="4dp"
+            android:textSize="12sp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/dateTv"
+
+            android:text="dd/MM/yyyy"/>
+
+
+
+
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+
+
+

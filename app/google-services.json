@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "631926670894",
+    "project_id": "vitsp-a3866",
+    "storage_bucket": "vitsp-a3866.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:631926670894:android:f83d06b8461e4c769941bf",
+        "android_client_info": {
+          "package_name": "com.example.vitsp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCps0tzrV75_xx__FHLIchI_joiVwQbiIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
